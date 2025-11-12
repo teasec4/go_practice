@@ -2,18 +2,19 @@ package main
 
 import (
 	"fmt"
+	"first_l/server"
 )
 
 
 func main() {
-	b := NewBalance(100)
-	// err := b.Withdraw(50)
-	// if err != nil {
-	// 	fmt.Println("withdraw failed:", err)
-	// 	return
-	// }
-	// fmt.Println("OK, new balance:", b.amount)
-	PrintAccountInfo(b)
+	// b := NewBalance(100)
+	
+	// PrintAccountInfo(b)
+
+	// var dic map[int]string = map[int]string{1: "one", 2: "two"}
+	// fmt.Println(dic[1])
+
+	server.Start()
 }
 
 
