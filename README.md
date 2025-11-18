@@ -10,15 +10,14 @@ Here I experiment with different Go concepts, small projects, and exercises.
 - You can explore other branches to see the code I wrote and practice with.
 
 ## What you will find
-
-- CLI utilities  
-- Simple web servers  
-- Experiments with pointers, memory, and goroutines  
-- Small games and exercises  
+- **Banking System**: A simple banking system with basic functionalities like deposit, withdraw, and check balance.
 
 ## Usage
 
-1. Clone the repository:
-
 ```bash
-git clone https://github.com/teasec4/go_practice.git
+go run . -mode=server -port=8080
+```
+or
+```bash
+go run . -mode=cli
+```
