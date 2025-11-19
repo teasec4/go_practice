@@ -1,0 +1,21 @@
+# Binaries
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test coverage
+*.cover
+*.out
+
+# Go modules
+vendor/
